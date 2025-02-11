@@ -1,0 +1,23 @@
+{
+  "name": "typescript-essentials",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy:force": "gh-pages -d ./ --dest .",
+    "deploy": "./bash/deploy-confirm.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asdqdsa/typescript-essentials.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/asdqdsa/typescript-essentials/issues"
+  },
+  "homepage": "https://github.com/asdqdsa/typescript-essentials#readme",
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
+}
