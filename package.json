@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "deploy:force": "gh-pages -d ./ --dest typescript-essentials",
+    "deploy:force": "gh-pages -d ./ --dest .",
     "deploy": "./bash/deploy-confirm.sh"
   },
   "repository": {
